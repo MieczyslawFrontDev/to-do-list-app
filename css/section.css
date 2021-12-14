@@ -1,13 +1,9 @@
-.section {
-    display: grid;
-    grid-row-gap: 1px;
-}
-
 .section__header {
     margin: 0;
     background-color: white;
     font-weight: bold;
     padding: 20px;
+    border-bottom: 1px solid lightgray;
 }
 
 .section__header--list {
@@ -20,6 +16,7 @@
     grid-template-columns: 1fr auto;
     background-color: white;
     padding: 20px;
+    border-bottom: 1px solid lightgray;
 }
 
 .section__button {
@@ -32,4 +29,5 @@
 .section__button:hover {
     transform: scale(1.05);
     transition: 0.5s;
+    background-color: hsl(180, 100%, 30%);
 }
