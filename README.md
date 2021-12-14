@@ -15,6 +15,6 @@ https://mieczyslawfrontdev.github.io/to-do-list-app/
 1. HTML
 2. CSS
 3. CSS Grid
-4. BEM
-5. Media queries
-6. JavaScript# 
+4. Media queries
+5. JavaScript
+6. BEM
