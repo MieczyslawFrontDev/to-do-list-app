@@ -8,12 +8,13 @@ I would like to introduce my new project. This is a to-do list application with 
 
 # Demo
 
+https://mieczyslawfrontdev.github.io/to-do-list-app/
 
 # Technologies
 
 1. HTML
 2. CSS
 3. CSS Grid
-4. BEM
-5. Media queries
-6. JavaScript# 
+4. Media queries
+5. JavaScript
+6. BEM
