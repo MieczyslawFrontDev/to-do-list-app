@@ -1,0 +1,9 @@
+@media (max-width: 414px) {
+    .main {
+        padding: 20px;
+    }
+    .form {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}

@@ -1,0 +1,35 @@
+.section {
+    display: grid;
+    grid-row-gap: 1px;
+}
+
+.section__header {
+    margin: 0;
+    background-color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.section__header--list {
+    margin: 0;
+    padding: 0;
+}
+
+.section__container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.section__button {
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+.section__button:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
