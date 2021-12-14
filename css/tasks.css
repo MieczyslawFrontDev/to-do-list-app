@@ -21,7 +21,7 @@
     border-radius: 2px;
 }
 
-.tasksList__button--done {
+.tasksList__button--toggleDone {
     background-color: green;
 }
 
@@ -29,15 +29,17 @@
     background-color: red;
 }
 
-.tasksList__button--done:hover {
+.tasksList__button--toggleDone:hover {
     transform: scale(1.1);
     transition: 0.5s;
     border-radius: 2px;
+    background-color: hsl(120, 100%, 30%);
 }
 
 .tasksList__button--remove:hover {
     transform: scale(1.1);
     transition: 0.5s;
+    background-color: hsl(0, 100%, 60%);
 }
 
 .js-item--done {
