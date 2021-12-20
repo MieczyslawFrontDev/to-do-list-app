@@ -18,3 +18,4 @@ https://mieczyslawfrontdev.github.io/to-do-list-app/
 4. Media queries
 5. JavaScript
 6. BEM
+7. Immutability
