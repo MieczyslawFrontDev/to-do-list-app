@@ -22,3 +22,7 @@
     transition: 0.5s;
     background-color: hsl(180, 100%, 30%);
 }
+
+.form__button:active {
+    background-color: hsl(180, 100%, 40%);
+}

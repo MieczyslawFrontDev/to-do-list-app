@@ -13,6 +13,10 @@
     border-bottom: 1px solid lightgray;
 }
 
+.js-tasksList__item--hidden {
+    display: none;
+}
+
 .tasksList__button {
     color: white;
     border: none;
