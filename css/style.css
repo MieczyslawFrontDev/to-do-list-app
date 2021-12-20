@@ -12,15 +12,3 @@ html {
 body {
     background-color: lightgray;
 }
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    display: grid;
-    grid-row-gap: 10px;
-    padding: 20px;
-}
-
-.titleProject {
-    margin-bottom: 0;
-}
