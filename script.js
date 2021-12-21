@@ -1,6 +1,5 @@
 {
     let tasks = [];
-
     let hideDoneTasks = false;
 
     const removeTask = taskIndex => {
@@ -123,14 +122,12 @@
 
         bindEvents();
         bindButtonsEvents();
-
     };
 
     const clearNewTaskContent = (taskInput) => {
 
         taskInput.value = "";
         taskInput.focus();
-
     };
 
     const onFormSubmit = (e) => {
@@ -153,7 +150,6 @@
         render();
 
         const form = document.querySelector(".js-form");
-
         form.addEventListener("submit", onFormSubmit);
     };
 
