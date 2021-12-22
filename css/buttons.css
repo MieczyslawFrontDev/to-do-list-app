@@ -1,6 +1,6 @@
 .buttons {
   display: flex;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .buttons__button {
@@ -16,4 +16,12 @@
 
 .buttons__button:disabled {
   color: #aaa;
+}
+
+@media (max-width: 767px) {
+  .buttons {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+  }
 }
