@@ -6,11 +6,6 @@
         border-bottom: 1px solid lightgray;
     }
     
-    /* .section__title--list {
-        margin: 0;
-        padding: 0;
-    } */
-    
     .section__header {
         display: grid;
         grid-template-columns: auto auto;
