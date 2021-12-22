@@ -1,15 +1,20 @@
     .section__title {
         margin: 0;
+        padding: 20px;
         background-color: white;
         font-weight: bold;
         border-bottom: 1px solid lightgray;
     }
-
+    
+    /* .section__title--list {
+        margin: 0;
+        padding: 0;
+    } */
+    
     .section__header {
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-between;
         background-color: white;
-        padding: 20px;
         border-bottom: 1px solid lightgray;
     }
