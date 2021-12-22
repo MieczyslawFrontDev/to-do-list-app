@@ -26,3 +26,10 @@
 .form__button:active {
     background-color: hsl(180, 100%, 40%);
 }
+
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
